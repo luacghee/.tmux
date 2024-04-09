@@ -29,6 +29,11 @@ $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
 
+Copy to clipboard dependency:
+```
+$ sudo apt install xclip
+```
+
 Installing in `$XDG_CONFIG_HOME/tmux`:
 ```
 $ git clone https://github.com/luacghee/.tmux.git "/path/to/oh-my-tmux"
