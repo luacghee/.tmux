@@ -39,7 +39,7 @@ $ cd
 <<<<<<< HEAD
 $ git clone https://github.com/luacghee/.tmux.git
 =======
-$ git clone --single-branch https://github.com/gpakosz/.tmux.git
+$ git clone --single-branch https://github.com/luacghee/.tmux.git
 >>>>>>> upstream/master
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
@@ -55,7 +55,7 @@ Installing in `$XDG_CONFIG_HOME/tmux`:
 <<<<<<< HEAD
 $ git clone https://github.com/luacghee/.tmux.git "/path/to/oh-my-tmux"
 =======
-$ git clone --single-branch https://github.com/gpakosz/.tmux.git "/path/to/oh-my-tmux"
+$ git clone --single-branch https://github.com/luacghee/.tmux.git "/path/to/oh-my-tmux"
 >>>>>>> upstream/master
 $ mkdir -p "$XDG_CONFIG_HOME/tmux"
 $ ln -s /path/to/oh-my-tmux/.tmux.conf "$XDG_CONFIG_HOME/tmux/tmux.conf"
@@ -70,7 +70,7 @@ $ mkdir -p "~/.config/tmux"
 $ ln -s "/path/to/oh-my-tmux/.tmux.conf" "~/.config/tmux/tmux.conf"
 $ cp "/path/to/oh-my-tmux/.tmux.conf.local" "~/.config/tmux/tmux.conf.local"
 =======
-$ git clone --single-branch https://github.com/gpakosz/.tmux.git "/path/to/oh-my-tmux"
+$ git clone --single-branch https://github.com/luacghee/.tmux.git "/path/to/oh-my-tmux"
 $ mkdir -p ~/.config/tmux
 $ ln -s /path/to/oh-my-tmux/.tmux.conf ~/.config/tmux/tmux.conf
 $ cp /path/to/oh-my-tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
